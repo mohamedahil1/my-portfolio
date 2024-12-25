@@ -284,7 +284,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 10px;
 }
 
 .arrow {
@@ -367,7 +367,9 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width: 90%;
-  height: 90%;
+  height: 300px;
+  object-fit: cover;
+
 }
 
 .project-title {
@@ -430,3 +432,8 @@ footer {
 footer p {
   text-align: center;
 }
+.view-all {
+  display: block; /* Make the button behave like a block element */
+  margin: 2rem auto; /* Center horizontally and add spacing above/below */
+}
+
